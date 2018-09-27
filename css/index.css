@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/wallpaper.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#overlay{
+  background-color: rgba(0, 0, 0, 0.8);
+  background-attachment: inherit;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: transparent;
+}
+
+#phone{
+  float: right;
+}
+
+div.col-md-6:nth-child(2) > h2:nth-child(1){
+  font-size: 4rem;
+  margin-top: 25%;
+  color: white;
+}
